@@ -149,7 +149,7 @@ class Fakturoid(object):
 
 def main(full=False):
     end_date = date.today()
-    start_date = end_date - timedelta(days=50000 if full else 30)
+    start_date = end_date - timedelta(days=1000 if full else 30)
 
     fio = fiobank.FioBank(config['fiobank_token'])
     transactions = fio.period(start_date, end_date)
