@@ -1,6 +1,7 @@
 # finances
 
-Simple script for downloading recent transactions from Fio Bank and uploading them to spreadsheet in Google Docs.
+Simple script for downloading recent transactions from [Fio Bank](http://www.fio.cz/) and uploading them to spreadsheet in Google Docs.
+Moreover, it also pairs transactions with invoices from [Fakturoid](http://fakturoid.cz/).
 
 ## Status: ACTIVE
 
@@ -16,13 +17,22 @@ but still better than plaintext).
 
 Downloads **latest** transactions and uploads them to spreadsheet:
 
-    $ python finances.py
+```bash
+$ python finances.py
+```
 
 Downloads **all** transactions in your account's history and uploads them to spreadsheet:
 
-    $ python finances.py --full
+```bash
+$ python finances.py --full
+```
 
-Prevents duplicates by checking transaction ID. For further information [read code](https://github.com/honzajavorek/finances/blob/master/finances.py).
+Prevents duplicates by checking transaction ID. If transaction has variable
+symbol and the amount is positive number (it is not expense), corresponding
+invoice is searched and transaction data are populated with some additional
+info from Fakturoid.
+
+For further information [read code](https://github.com/honzajavorek/finances/blob/master/finances.py).
 
 
 ## License: ISC

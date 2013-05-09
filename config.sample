@@ -1,7 +1,9 @@
 {
     "fiobank_token": "...",
+    "fakturoid_token": "...",
+    "fakturoid_subdomain": "honzajavorek",
     "spreadsheet_key": "...",
-    "google_username": "...",
+    "google_username": "jan.javorek",
     "google_password": "... encoded in base64",
     "max_concurrency": 3,
     "worksheet_name": "Data",

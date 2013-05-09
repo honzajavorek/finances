@@ -1,3 +1,4 @@
-fiobank==0.0.3
 gspread==0.0.15
+requests>=1.0.0
+fiobank==0.0.3
 gevent==0.13.8
