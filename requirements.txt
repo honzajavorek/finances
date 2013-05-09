@@ -1,0 +1,3 @@
+fiobank==0.0.3
+gspread==0.0.15
+gevent==0.13.8

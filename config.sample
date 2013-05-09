@@ -1,0 +1,10 @@
+{
+    "fiobank_token": "...",
+    "spreadsheet_key": "...",
+    "google_username": "...",
+    "google_password": "... encoded in base64",
+    "max_concurrency": 3,
+    "worksheet_name": "Data",
+    "logging_format": "[%(levelname)s] %(message)s",
+    "logging_level": "INFO"
+}
