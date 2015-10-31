@@ -3,10 +3,6 @@
 Simple script for downloading recent transactions from [Fio Bank](http://www.fio.cz/) and uploading them to spreadsheet in Google Docs.
 Moreover, it also pairs transactions with invoices from [Fakturoid](http://fakturoid.cz/).
 
-## Status: ACTIVE
-
-Under active development and maintenance.
-
 ## Installation
 
 Download, run `pip install -r requirements.txt` and put the script to your `cron` settings (once a week, once a day maybe).
